@@ -1,11 +1,5 @@
 package com.fawadmalik.repoApp;
 
-import java.util.Arrays;
-
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
@@ -17,7 +11,7 @@ public class App
         App app = new App();
         app.greet(name);
     }
-    public void greet(String name){
-        System.out.println( "Hello World!\nHere comes " + name);
+    public String greet(String name){
+        return "Hello World!\nHere comes " + name;
     }
 }
